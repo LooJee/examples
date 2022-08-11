@@ -33,7 +33,7 @@ services:
     environment:
       - REDIS_MASTER_HOST=redis-master
       - REDIS_SENTINEL_QUORUM=2
-      - REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS=11000
+      - REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS=10000
     depends_on:
       - redis-master
       - redis-slave-1
