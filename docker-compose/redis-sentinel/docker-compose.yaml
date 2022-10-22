@@ -1,0 +1,45 @@
+version: "3"
+services:
+  redis-master:
+    image: redis:7
+    ports:
+      - "16379:6379"
+    container_name: "redis-master"
+    command: redis-server
+    networks:
+      - sentinel-network
+  redis-slave-1:
+    image: redis:7
+    ports:
+      - "6380:6379"
+    container_name: "redis-slave-1"
+    command: redis-server --replicaof redis-master 6379
+    depends_on:
+      - redis-master
+    networks:
+      - sentinel-network
+  redis-slave-2:
+    image: redis:7
+    ports:
+      - "6381:6379"
+    container_name: "redis-slave-2"
+    command: redis-server --replicaof redis-master 6379
+    depends_on:
+      - redis-master
+    networks:
+      - sentinel-network
+  redis-sentinel:
+    image: bitnami/redis-sentinel:latest
+    environment:
+      - REDIS_MASTER_HOST=redis-master
+      - REDIS_SENTINEL_QUORUM=2
+      - REDIS_SENTINEL_DOWN_AFTER_MILLISECONDS=10000
+    depends_on:
+      - redis-master
+      - redis-slave-1
+    ports:
+      - '26379-26381:26379'
+    networks:
+      - sentinel-network
+networks:
+  sentinel-network:
