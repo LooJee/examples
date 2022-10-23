@@ -2,8 +2,10 @@ use std::{cmp::Ordering, io};
 
 use rand::Rng;
 
+const GREETING: &str = "Guess the number!";
+
 fn main() {
-    println!("Guess the number!");
+    println!("{GREETING}");
 
     let secret_number = rand::thread_rng().gen_range(1..=100); // 1..=100 是一个范围表达式
 
