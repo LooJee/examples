@@ -1,0 +1,2 @@
+[workspace]
+members = ["arr", "float_math", "function", "guessing_game", "loops", "tuple"]
