@@ -9,4 +9,5 @@ members = [
     "convert_temperature",
     "ownership",
     "ref_borrow",
+    "slice",
 ]
