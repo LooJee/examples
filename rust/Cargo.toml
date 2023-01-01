@@ -10,4 +10,5 @@ members = [
     "ownership",
     "ref_borrow",
     "slice",
+    "struct_user",
 ]

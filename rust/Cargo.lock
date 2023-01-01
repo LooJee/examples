@@ -101,6 +101,10 @@ name = "slice"
 version = "0.1.0"
 
 [[package]]
+name = "struct_user"
+version = "0.1.0"
+
+[[package]]
 name = "tuple"
 version = "0.1.0"
 
