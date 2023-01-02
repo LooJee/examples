@@ -14,6 +14,8 @@ fn main() {
         user2.username, user2.email
     );
 
+    println!("user2: {:?}", user2);
+
     // will failed here, user1.email has moved
     // println!("user1.email : {}", user1.email);
 }
@@ -27,6 +29,7 @@ fn build_user(username: String, email: String) -> User {
     }
 }
 
+#[derive(Debug)]
 struct User {
     active: bool,
     username: String,
