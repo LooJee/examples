@@ -11,4 +11,5 @@ members = [
     "ref_borrow",
     "slice",
     "struct_user",
+    "tuple_struct",
 ]
