@@ -12,4 +12,5 @@ members = [
     "slice",
     "struct_user",
     "tuple_struct",
+    "rectangles",
 ]
