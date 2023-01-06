@@ -15,4 +15,5 @@ members = [
     "rectangles",
     "enums",
     "options",
+    "restaurant",
 ]

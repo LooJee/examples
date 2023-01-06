@@ -109,6 +109,10 @@ name = "ref_borrow"
 version = "0.1.0"
 
 [[package]]
+name = "restaurant"
+version = "0.1.0"
+
+[[package]]
 name = "slice"
 version = "0.1.0"
 
