@@ -17,6 +17,10 @@ name = "convert_temperature"
 version = "0.1.0"
 
 [[package]]
+name = "enums"
+version = "0.1.0"
+
+[[package]]
 name = "float_math"
 version = "0.1.0"
 
