@@ -117,6 +117,10 @@ name = "slice"
 version = "0.1.0"
 
 [[package]]
+name = "strings"
+version = "0.1.0"
+
+[[package]]
 name = "struct_user"
 version = "0.1.0"
 
