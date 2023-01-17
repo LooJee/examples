@@ -19,4 +19,5 @@ members = [
     "vecs",
     "strings",
     "hashmaps",
+    "generics",
 ]
