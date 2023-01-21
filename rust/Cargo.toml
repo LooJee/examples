@@ -20,4 +20,5 @@ members = [
     "strings",
     "hashmaps",
     "generics",
+    "summary_trait",
 ]
