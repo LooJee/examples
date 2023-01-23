@@ -21,4 +21,5 @@ members = [
     "hashmaps",
     "generics",
     "summary_trait",
+    "lifetime",
 ]
