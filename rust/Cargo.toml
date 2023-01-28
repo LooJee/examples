@@ -22,4 +22,5 @@ members = [
     "generics",
     "summary_trait",
     "lifetime",
+    "tests",
 ]

@@ -141,6 +141,10 @@ name = "summary_trait"
 version = "0.1.0"
 
 [[package]]
+name = "tests"
+version = "0.1.0"
+
+[[package]]
 name = "tuple"
 version = "0.1.0"
 
