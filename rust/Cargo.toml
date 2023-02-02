@@ -25,4 +25,5 @@ members = [
     "tests",
     "minigrep",
     "closures",
+    "iters",
 ]

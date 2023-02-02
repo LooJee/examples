@@ -59,6 +59,10 @@ name = "hashmaps"
 version = "0.1.0"
 
 [[package]]
+name = "iters"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.137"
 source = "registry+https://github.com/rust-lang/crates.io-index"
