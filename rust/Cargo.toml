@@ -27,4 +27,5 @@ members = [
     "closures",
     "iters",
     "pointers",
+    "concurrency",
 ]
