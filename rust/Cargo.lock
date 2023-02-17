@@ -85,6 +85,10 @@ name = "minigrep"
 version = "0.1.0"
 
 [[package]]
+name = "operator_overload"
+version = "0.1.0"
+
+[[package]]
 name = "options"
 version = "0.1.0"
 

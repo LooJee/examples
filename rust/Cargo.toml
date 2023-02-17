@@ -31,4 +31,5 @@ members = [
     "traits",
     "patterns",
     "unsafes",
+    "operator_overload",
 ]
