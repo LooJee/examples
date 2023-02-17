@@ -181,6 +181,10 @@ name = "tuple_struct"
 version = "0.1.0"
 
 [[package]]
+name = "unsafes"
+version = "0.1.0"
+
+[[package]]
 name = "vecs"
 version = "0.1.0"
 

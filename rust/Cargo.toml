@@ -30,4 +30,5 @@ members = [
     "concurrency",
     "traits",
     "patterns",
+    "unsafes",
 ]
